@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ONLINE WAY -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <title>Belajar Bersama NIOMIC</title>
+
+    <style>
+
+        label{
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <!-- Form -->
+    <form action="#" method="POST">
+        <div class="form-group">
+            <label for="name">Nama Lengkap</label><br>
+            <input class="form-control" type="text" id="name" name="name" placeholder="Nama Lengkap">
+        </div>
+
+        <div class="form-group">
+            <label for="alamat">Alamat Rumah</label><br>
+            <textarea class="form-control" name="alamat" id="alamat" rows="4"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="fp">Foto Profil</label><br>
+            <input type="file" name="fp" id="fp">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Alamat Email</label><br>
+            <input class="form-control" type="email" name="email" id="email" placeholder="Alamat email">
+        </div>
+
+        <div class="form-group">
+            <label for="sandi">Kata Sandi</label><br>
+            <input class="form-control" type="password" name="sandi" id="sandi" placeholder="Kata sandi">
+        </div>
+
+        <div class="form-check form-check-inline">
+            <label class="form-check-label">Jenis Kendaraan Anda : </label>
+                <input class="form-check-input ml-2" type="radio" name="kendaraan" id="kendaraan" value="Motor">
+                <label class="form-check-label" for="kendaraan" style="font-weight: 400;">
+                    Motor
+                </label>
+                <input class="form-check-input ml-2" type="radio" name="kendaraan" id="kendaraan" value="Mobil" checked>
+                <label class="form-check-label" for="kendaraan" style="font-weight: 400;">
+                    Mobil
+                </label>
+        </div>
+        <br>
+        <button type="button" class="btn btn-primary mt-2 mb-5">Register</button>
+    </form>
+    
+</body>
+</html>
